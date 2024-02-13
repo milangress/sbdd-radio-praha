@@ -1,5 +1,27 @@
 <script>
 	import CheckLive from '../components/CheckLive.svelte';
+
+	import { createClient } from "partyworks-client";
+	import { onDestroy, onMount } from "svelte";
+	// import App from "../components/App.svelte";
+
+	let room
+	let roomId = "sveltekit-live-cursors";
+
+
+	onMount(() => {
+		const client = createClient({
+			host: "localhost:1999",
+			throttle: 16
+		});
+
+
+		room = client.enter(roomId, {initialPresence: {cursor: null}});
+	});
+
+	onDestroy(() => {
+		room?.leave();
+	});
 </script>
 <svelte:head>
 	<title>Radio Kutululu</title>
