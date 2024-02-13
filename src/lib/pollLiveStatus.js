@@ -20,7 +20,7 @@ async function getLiveStatus() {
 	}
 }
 
-export function pollLiveStatus(ms = 10000) {
+export async function pollLiveStatus(ms = 10000) {
 	onMount(async () => {
 		const interval = setInterval(await getLiveStatus, ms);
 		await getLiveStatus()
