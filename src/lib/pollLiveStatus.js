@@ -1,11 +1,13 @@
 import { onMount } from 'svelte';
 
-const radioCoID = '123456';
+const radioCoID = 's14040ab73';
 
 
 function getLiveStatus() {
 	const url = `https://public.radio.co/stations/${radioCoID}/status`
-	return fetch(url)
+	const result = fetch(url)
+	console.log('fetch', result)
+	return result
 }
 
 export function pollLiveStatus(ms = 10000) {

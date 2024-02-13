@@ -1,8 +1,8 @@
+import {pollLiveStatus} from '../lib/pollLiveStatus.js'
 
-function getLiveStatus() {
-	
-}
+let poll = pollLiveStatus()
 
 <template>
+	<p>{poll}</p>
 
 </template>
