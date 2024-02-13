@@ -30,6 +30,7 @@
       filter: url(#blobs);
 			color: yellow;
 	}
+
   @media (prefers-reduced-motion) {
 		div {
 			filter: none;

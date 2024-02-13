@@ -9,13 +9,15 @@ body {
     background: url('$lib/assets/bg.png') repeat center center fixed;
     font-family: 'Tagettes', sans-serif;
     font-size: 1.5rem;
+    text-shadow: #fff 0 0 2px
 }
 
 
 h1 {
-    color: red;
+    color: gray;
     font-size: 3rem;
     font-family: 'TagettesPlus', sans-serif;
+    text-shadow: #8eefb7 0 0 2px, #8eefb7 0 0 5px, #8eefb7 0 0 15px;
 }
 
 .smol-breakout-grid {

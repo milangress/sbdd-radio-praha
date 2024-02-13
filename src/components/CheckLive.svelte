@@ -8,7 +8,7 @@ pollLiveStatus()
 	{#await $isLive}
 		<p>Checking if live...</p>
 	{:then}
-		<p>Live!</p>
+		<p>We are Live turn on the Sound!</p>
 	{:catch error}
 		<p>Error: {error.message}</p>
 	{/await}

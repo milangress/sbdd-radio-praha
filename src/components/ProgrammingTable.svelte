@@ -13,7 +13,7 @@
 </script>
 
 {#await data}
-	Loading planet...
+	Loading Programming...
 {:then programming}
 	<h1>Programm</h1>
 	{#each programming as programm}
