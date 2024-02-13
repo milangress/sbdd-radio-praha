@@ -46,18 +46,17 @@
 <SvgFilter></SvgFilter>
 
 <style>
-    #headline {
-        user-select: none;
-				padding: 0.5rem;
-				position: absolute;
-		}
+	#headline {
+			user-select: none;
+			padding: 0.5rem;
+			position: absolute;
+	}
 header {
 		min-height: 60vh;
 }
 .logo {
 		text-align: center;
 		width: 100%;
-		height: 100%;
     background: url('$lib/assets/logo.gif') repeat center center fixed;
 }
 </style>
