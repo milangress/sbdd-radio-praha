@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707850099698</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add analytics">
+      <option name="closed" value="true" />
+      <created>1707850423928</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707850423928</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,12 +175,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="m" />
     <MESSAGE value="idea init" />
     <MESSAGE value="fonts" />
     <MESSAGE value="proto" />
     <MESSAGE value="logo" />
     <MESSAGE value="add favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add favicon" />
+    <MESSAGE value="add analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="add analytics" />
   </component>
 </project>
