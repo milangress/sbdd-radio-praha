@@ -1,8 +1,21 @@
-import {pollLiveStatus} from '../lib/pollLiveStatus.js'
+<script>
+import {pollLiveStatus, status, isLive} from '$lib/pollLiveStatus.js'
 
-let poll = pollLiveStatus()
+pollLiveStatus()
+</script>
 
-<template>
-	<p>{poll}</p>
+{#if $isLive}
+	{#await $isLive}
+		<p>Checking if live...</p>
+	{:then}
+		<p>Live!</p>
+	{:catch error}
+		<p>Error: {error.message}</p>
+	{/await}
+{:else}
+	<p>Radio currently offline we stream on the 14.02.2024 between 13:00 - 17:00</p>
+{/if}
 
-</template>
+
+<!--<p>Status: {$status.status} {$isLive}</p>-->
+

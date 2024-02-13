@@ -1,20 +1,29 @@
 import { onMount } from 'svelte';
+import { writable } from "svelte/store";
 
 const radioCoID = 's14040ab73';
 
+export let status = writable("online");
+export let isLive = writable(true);
 
-function getLiveStatus() {
+
+async function getLiveStatus() {
 	const url = `https://public.radio.co/stations/${radioCoID}/status`
-	const result = fetch(url)
-	console.log('fetch', result)
-	return result
+	const response = await fetch(url)
+	const resStatus = await response.json();
+	console.log('fetch', resStatus)
+	status.set(resStatus)
+	if (resStatus.status === 'offline') {
+		isLive.set(false)
+	} else {
+		isLive.set(true)
+	}
 }
 
 export function pollLiveStatus(ms = 10000) {
-	onMount(() => {
-		const interval = setInterval(getLiveStatus, ms);
-		getLiveStatus()
-
+	onMount(async () => {
+		const interval = setInterval(await getLiveStatus, ms);
+		await getLiveStatus()
 		return () => clearInterval(interval);
 	});
 }
