@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+    font-size: 3rem;
+    font-family: 'TagettesPlus', sans-serif;
+}
+
+@font-face {
+    font-family: 'TagettesPlus';
+    src: url('$lib/assets/fonts/TagettesPlus.woff2') format('woff2'),
+    url('$lib/assets/fonts/TagettesPlus.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tagettes';
+    src: url('$lib/assets/fonts/Tagettes.woff2') format('woff2'),
+    url('$lib/assets/fonts/Tagettes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
