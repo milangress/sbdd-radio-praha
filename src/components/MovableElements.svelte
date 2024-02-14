@@ -25,6 +25,9 @@
 		position: absolute;
 			z-index: 50;
 			user-select: none;
+			animation: blendIn 1s;
+      animation-delay: 3s;
+      animation-fill-mode: both;
 	}
 	img{
 			pointer-events: none;
@@ -54,4 +57,9 @@
 	#move-hexer > img {
 			max-width: 400px;
 	}
+  @keyframes blendIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+  }
+
 </style>
