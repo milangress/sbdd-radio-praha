@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2067321a-2fd5-42b4-9d30-1a93157115fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/App.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cursor.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cursor.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cursor.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707875485058</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add multi cursor">
+      <option name="closed" value="true" />
+      <created>1707876501334</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707876501334</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +364,7 @@
     <MESSAGE value="fix mobile" />
     <MESSAGE value="images draggy" />
     <MESSAGE value="fix blend in" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix blend in" />
+    <MESSAGE value="add multi cursor" />
+    <option name="LAST_COMMIT_MESSAGE" value="add multi cursor" />
   </component>
 </project>
