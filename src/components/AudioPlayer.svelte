@@ -9,6 +9,9 @@
 		audioPlayer.addEventListener('timeupdate',function() {
 			console.log('timeupdate');
 		});
+		window.setTimeout(() => {
+			audioPlayer.play();
+		}, 1000);
 	})
 
 </script>

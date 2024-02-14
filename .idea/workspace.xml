@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2067321a-2fd5-42b4-9d30-1a93157115fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AudioPlayer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AudioPlayer.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707910765972</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="mve BACK">
+      <option name="closed" value="true" />
+      <created>1707910862232</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1707910862232</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +407,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="proto" />
     <MESSAGE value="logo" />
     <MESSAGE value="add favicon" />
     <MESSAGE value="add analytics" />
@@ -424,6 +431,7 @@
     <MESSAGE value="spring animation" />
     <MESSAGE value="add audio player" />
     <MESSAGE value="link" />
-    <option name="LAST_COMMIT_MESSAGE" value="link" />
+    <MESSAGE value="mve BACK" />
+    <option name="LAST_COMMIT_MESSAGE" value="mve BACK" />
   </component>
 </project>
