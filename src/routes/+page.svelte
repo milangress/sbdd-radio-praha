@@ -33,7 +33,7 @@
 
 <div class="wrapper">
 	<header>
-			<h1>Radio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kutululu</h1>
+			<h1>Radio &nbsp;&nbsp;&nbsp; rKutululu</h1>
 	<CheckLive></CheckLive>
 	</header>
 	<ProgrammingTable></ProgrammingTable>
