@@ -6,10 +6,29 @@ html,body {
 }
 
 body {
-    background: url('$lib/assets/bg.png') repeat center center fixed;
     font-family: 'Tagettes', sans-serif;
     font-size: 1.5rem;
     text-shadow: #fff 0 0 2px
+}
+
+.bg {
+    background-image: url('$lib/assets/bg.png');
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -2;
+}
+.logo-bg {
+    background-image: url('$lib/assets/logo.gif');
+    background-repeat: repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -2;
 }
 
 

@@ -31,7 +31,7 @@
 	<script defer type="module" src="https://unpkg.com/playhtml@latest/dist/init.es.js"></script>
 </svelte:head>
 
-<div class="logo">
+<div class="wrapper">
 	<header>
 			<h1>Radio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kutululu</h1>
 	<CheckLive></CheckLive>
@@ -54,9 +54,10 @@
 header {
 		min-height: 60vh;
 }
-.logo {
+.wrapper {
 		text-align: center;
 		width: 100%;
-    background: url('$lib/assets/logo.gif') repeat center center fixed;
+    position: absolute;
+    margin-top: 5rem;
 }
 </style>

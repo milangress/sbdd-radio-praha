@@ -9,4 +9,6 @@
 
 </script>
 
+<div class="bg"></div>
+<div class="logo-bg"></div>
 <slot />
