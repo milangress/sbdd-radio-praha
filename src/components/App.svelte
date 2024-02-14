@@ -68,6 +68,7 @@
         place-content: center;
         place-items: center;
         touch-action: none;
+				z-index: -1;
     }
 
     .text {
