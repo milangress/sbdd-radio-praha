@@ -1,7 +1,7 @@
 import { onMount } from 'svelte';
 import { writable } from "svelte/store";
 
-const radioCoID = 's14040ab73';
+export const radioCoID = 's14040ab73';
 
 export let status = writable("online");
 export let isLive = writable(true);

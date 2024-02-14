@@ -1,4 +1,5 @@
 <script>
+	import AudioPlayer from '../components/AudioPlayer.svelte';
 	import CheckLive from '../components/CheckLive.svelte';
 
 	import { createClient } from "partyworks-client";
@@ -41,6 +42,8 @@
 	<header>
 			<h1>Radio &nbsp;&nbsp;&nbsp; rKutululu</h1>
 	<CheckLive></CheckLive>
+	<AudioPlayer></AudioPlayer>
+
 	</header>
 	<ProgrammingTable></ProgrammingTable>
 	<div class="smol-breakout-grid">

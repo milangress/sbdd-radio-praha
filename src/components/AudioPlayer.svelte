@@ -1,0 +1,25 @@
+<script>
+	import {radioCoID, isLive} from '$lib/pollLiveStatus.js';
+	import { onMount } from 'svelte';
+	const streamUrl = `https://s3.radio.co/${radioCoID}/listen`;
+
+	let audioPlayer
+
+	onMount(() => {
+		audioPlayer.addEventListener('timeupdate',function() {
+			console.log('timeupdate');
+		});
+	})
+
+</script>
+
+{#if $isLive}
+	<div class="audio-player">
+		<audio bind:this={audioPlayer} controls="controls" autoplay="autoplay" src="{streamUrl}">
+			Your browser does not support the audio element.
+			<a href="{streamUrl}">Open In new window</a>
+		</audio>
+	</div>
+{:else}
+	<p>---</p>
+{/if}
