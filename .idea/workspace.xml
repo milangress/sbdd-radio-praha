@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2067321a-2fd5-42b4-9d30-1a93157115fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AudioPlayer.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/pollLiveStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/pollLiveStatus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AudioPlayer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AudioPlayer.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707878403644</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add audio player">
+      <option name="closed" value="true" />
+      <created>1707910194212</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1707910194212</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +392,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="idea init" />
     <MESSAGE value="fonts" />
     <MESSAGE value="proto" />
     <MESSAGE value="logo" />
@@ -411,6 +416,7 @@
     <MESSAGE value="dont show on tochdevice" />
     <MESSAGE value="fix iphone" />
     <MESSAGE value="spring animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring animation" />
+    <MESSAGE value="add audio player" />
+    <option name="LAST_COMMIT_MESSAGE" value="add audio player" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 <script>
 	import {radioCoID, isLive} from '$lib/pollLiveStatus.js';
 	import { onMount } from 'svelte';
-	const streamUrl = `https://s3.radio.co/${radioCoID}/listen`;
+	const streamUrl = `https://streaming.radio.co/${radioCoID}/listen`;
 
 	let audioPlayer
 
@@ -23,3 +23,5 @@
 {:else}
 	<p>---</p>
 {/if}
+
+<!--<a href="{streamUrl}">Open In new window</a>-->
