@@ -36,7 +36,7 @@ h1 {
     color: gray;
     font-size: 3rem;
     font-family: 'TagettesPlus', sans-serif;
-    text-shadow: #8eefb7 0 0 2px, #8eefb7 0 0 5px, #8eefb7 0 0 15px;
+    text-shadow: #8eefb7 0 0 2px, #8eefb7 0 0 5px, #8eefb7 0 0 15px, -2px -2px 2px rgba(255, 255, 255, 0.9);
 }
 
 .smol-breakout-grid {

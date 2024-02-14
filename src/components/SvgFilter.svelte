@@ -81,4 +81,13 @@
 		</feMerge>
 	</filter>
 
+	<filter id="Relief">
+		<feConvolveMatrix order="8,8" divisor="4" kernelMatrix="1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 " in="SourceAlpha" result="bevel"></feConvolveMatrix>
+
+		<feMerge>
+			<feMergeNode in="bevel"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+
 </svg>
