@@ -6,7 +6,7 @@
 	import MovableElements from '../components/MovableElements.svelte';
 	import ProgrammingTable from '../components/ProgrammingTable.svelte';
 	import SvgFilter from '../components/SvgFilter.svelte';
-	// import App from "../components/App.svelte";
+	import App from "../components/App.svelte";
 
 	let room
 	let roomId = "sveltekit-live-cursors";
@@ -14,7 +14,7 @@
 
 	onMount(() => {
 		const client = createClient({
-			host: "localhost:1999",
+			host: "https://sbdd-radio-praha-party.milangress.partykit.dev",
 			throttle: 16
 		});
 
@@ -46,6 +46,9 @@
 </div>
 <SvgFilter></SvgFilter>
 <MovableElements></MovableElements>
+{#if room}
+	<App {room} />
+{/if}
 
 <style>
 	#headline {
