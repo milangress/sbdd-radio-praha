@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2067321a-2fd5-42b4-9d30-1a93157115fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MovableElements.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovableElements.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovableElements.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707872614216</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="images draggy">
+      <option name="closed" value="true" />
+      <created>1707873505491</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1707873505491</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +336,7 @@
     <MESSAGE value="programming" />
     <MESSAGE value="fix background mobile" />
     <MESSAGE value="fix mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix mobile" />
+    <MESSAGE value="images draggy" />
+    <option name="LAST_COMMIT_MESSAGE" value="images draggy" />
   </component>
 </project>

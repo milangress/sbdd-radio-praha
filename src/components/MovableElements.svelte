@@ -1,6 +1,8 @@
 <script>
 	import hand from '$lib/assets/hand.png';
-	import logo from '$lib/assets/logo.gif';
+	import logo from '$lib/assets/logo.png';
+	import dragon from '$lib/assets/dragon.png';
+	import hexer from '$lib/assets/hexer.png';
 </script>
 <div can-move id="move-hand">
 	<img src="{hand}" alt="a sketched hand with little faces as fingers"/>
@@ -8,6 +10,14 @@
 
 <div can-move id="move-logo">
 	<img src="{logo}" alt="logo"/>
+</div>
+
+<div can-move id="move-dragon">
+	<img src="{dragon}" alt="dragon"/>
+</div>
+
+<div can-move id="move-hexer">
+	<img src="{hexer}" alt="hexer"/>
 </div>
 
 <style>
@@ -26,9 +36,22 @@
 			max-width: 300px;
 	}
 	#move-logo {
-			mix-blend-mode: difference;
+			mix-blend-mode: color-burn;
 	}
 	#move-logo > img {
 			max-width: 300px;
+	}
+	#move-dragon {
+			mix-blend-mode: color-burn;
+	}
+	#move-dragon > img {
+			max-width: 300px;
+			max-height: 90vh;
+	}
+	#move-hexer {
+			mix-blend-mode: hard-light;
+	}
+	#move-hexer > img {
+			max-width: 400px;
 	}
 </style>
