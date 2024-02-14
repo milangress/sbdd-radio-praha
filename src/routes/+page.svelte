@@ -11,6 +11,8 @@
 	let room
 	let roomId = "sveltekit-live-cursors";
 
+	let touchdevice = true;
+
 
 	onMount(() => {
 		const client = createClient({
@@ -20,11 +22,14 @@
 
 
 		room = client.enter(roomId, {initialPresence: {cursor: null}});
+
+		touchdevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
 	});
 
 	onDestroy(() => {
 		room?.leave();
 	});
+
 </script>
 <svelte:head>
 	<title>Radio Kutululu</title>
@@ -46,7 +51,7 @@
 </div>
 <SvgFilter></SvgFilter>
 <MovableElements></MovableElements>
-{#if room}
+{#if room && !touchdevice}
 	<App {room} />
 {/if}
 
