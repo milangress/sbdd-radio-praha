@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2067321a-2fd5-42b4-9d30-1a93157115fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/MovableElements.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CheckLive.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CheckLive.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SvgFilter.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SvgFilter.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
         <option value="ProgrammingTable" />
         <option value="ProgrammingEntry" />
         <option value="SvgFilter" />
+        <option value="MovableElements" />
       </list>
     </option>
   </component>
@@ -282,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707871720994</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fix mobile">
+      <option name="closed" value="true" />
+      <created>1707872614216</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707872614216</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

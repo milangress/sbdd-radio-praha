@@ -3,6 +3,7 @@
 
 	import { createClient } from "partyworks-client";
 	import { onDestroy, onMount } from "svelte";
+	import MovableElements from '../components/MovableElements.svelte';
 	import ProgrammingTable from '../components/ProgrammingTable.svelte';
 	import SvgFilter from '../components/SvgFilter.svelte';
 	// import App from "../components/App.svelte";
@@ -44,6 +45,7 @@
 	</div>
 </div>
 <SvgFilter></SvgFilter>
+<MovableElements></MovableElements>
 
 <style>
 	#headline {
