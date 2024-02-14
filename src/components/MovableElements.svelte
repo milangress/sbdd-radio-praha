@@ -62,4 +62,10 @@
       to {opacity: 1;}
   }
 
+  @media (max-width: 800px) {
+      div {
+          display: none;
+      }
+  }
+
 </style>
