@@ -21,7 +21,7 @@
 
 <style>
 	div {
-		width: fit-content;
+			width: fit-content;
 			max-width: 50ch;
 			/*border-radius: 50px;*/
 			filter: url(#glitch);
@@ -44,4 +44,10 @@
 				filter: none;
 		}
   }
+	@media (max-width: 800px) {
+		div {
+				width: 90vw;
+				margin-inline: auto;
+		}
+	}
 </style>
