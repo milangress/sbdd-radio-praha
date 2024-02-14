@@ -3,8 +3,6 @@
 	export let x = 0;
 	export let y = 0;
 
-	/*
-	 * It's easily possible to smooth the animation with springs, for example:
 		 import { spring } from "svelte/motion";
 
 		 // Spring animation for cursor
@@ -20,15 +18,15 @@
 		 $: coords.set({ x, y });
 
 		 // Use $coords in the template
-		 style={`transform: translateX(${$coords.x}px) translateY(${$coords.y}px)`}
-	 */
+
+
 </script>
 
 <svg
 	class="cursor"
 	fill="none"
 	height="36"
-	style={`transform: translateX(${x}px) translateY(${y}px)`}
+	style={`transform: translateX(${$coords.x}px) translateY(${$coords.y}px)`}
 	viewBox="0 0 52.9 52.9"
 	width="52.9"
 	xmlns="http://www.w3.org/2000/svg"
